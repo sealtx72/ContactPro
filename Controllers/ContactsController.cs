@@ -161,7 +161,7 @@ namespace ContactPro.Controllers
                 }
                 catch (Exception)
                 {
-                    return RedirectToAction("Index", "Contacts", new { swalMessage = "Error: Email Send Failed!" });
+                    return RedirectToAction("Index", "Contacts", new { swalMessage = "Error: Email Send Failed! Please contact the Webmaster." });
                     throw;
                 }
 
